@@ -1,0 +1,30 @@
+# Ignorar cualquier carpeta llamada Library dentro de StoneHub (sin afectar otras carpetas del proyecto)
+Stone Hub/**/Library/
+
+# Archivos y carpetas estándar a ignorar en proyectos Unity dentro de StoneHub
+Stone Hub/[Tt]emp/
+Stone Hub/[Oo]bj/
+Stone Hub/[Ll]ogs/
+Stone Hub/[Mm]emoryCaptures/
+
+# Ignorar archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de IDEs y configuraciones locales
+.vs/
+.idea/
+Stone Hub/*.csproj
+Stone Hub/*.unityproj
+Stone Hub/*.sln
+Stone Hub/*.suo
+Stone Hub/*.tmp
+Stone Hub/*.user
+Stone Hub/*.userprefs
+Stone Hub/*.pidb
+Stone Hub/*.booproj
+Stone Hub/*.svd
+
+# NO ignorar builds explícitamente (asegura que se rastreen)
+!Stone Hub/[Bb]uild/
+!Stone Hub/[Bb]uilds/
